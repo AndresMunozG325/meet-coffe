@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.25em;
+}
+
+#ubicacion,
+h2 {
+  margin: 1em auto;
+}
+
+.sweet-brown h3 .sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+#eventos h2 {
+  margin-bottom: 1em;
+}
+#eventos h3 {
+  margin: 1em auto;
+}
+
+.subtitulo,
+h4,
+h5 {
+  font-weight: 400;
+}
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+.hero-section {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+section,
+footer {
+  margin-top: 75px;
+}
+footer {
+  padding: 50px;
+}
+.charla-texto,
+.evento {
+  display: inline-block;
+}
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+.charla-texto {
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 5%;
+  white-space: normal;
+}
+article {
+  width: 30%;
+}
+.img-evento {
+  width: 75%;
+}
+nav {
+  width: 100vw;
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+}
+nav ul {
+  list-style-type: none;
+  margin-top: 0px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+.icono {
+  width: 2rem;
+}
+.icono svg {
+  fill: #ffffff;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+#eventos,
+a {
+  text-decoration: none;
+  color: #000f08;
+}
+/* clases extras para desafio segunda pagina */
+
+.content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.content p {
+  font-size: 0.96em;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+}
+.titulo h2 {
+  text-align: left;
+  font-size: 1.5em;
+  padding-top: 150px;
+}
+
+.img-simposio {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.sub-titulo {
+  margin-top: 40px;
+}
+.sub-titulo h2 {
+  font-size: 1.5em;
+}
+
+/* esta parte creo que está de mas, sin embargo, es la única forma en que me funciona */
+header h1 {
+  padding-top: 140px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
